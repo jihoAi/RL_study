@@ -46,7 +46,7 @@ class RolloutBuffer:
         self.log_probs = [[] for _ in range(self.num_envs)]
         self.dones = [[] for _ in range(self.num_envs)]
 
-  class VPG:
+class VPG:
     def __init__(self, model, env, gamma,lr=0.001):
         self.model = model
         self.env = env
