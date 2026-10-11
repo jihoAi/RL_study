@@ -1,0 +1,6 @@
+torch>=2.0
+gymnasium>=1.1
+numpy
+matplotlib
+imageio
+pygame
